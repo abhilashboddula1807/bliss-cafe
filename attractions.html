@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss Cafe - Special Attractions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Bliss Cafe</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="ambience.html">Ambience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Attractions Hero Section -->
+    <section class="attractions-hero">
+        <div class="hero-content">
+            <h1>Special Attractions</h1>
+            <p>Experience unique events and activities at Bliss Cafe</p>
+        </div>
+    </section>
+
+    <!-- Attractions Grid -->
+    <section id="attractions" class="attractions-section">
+        <div class="attractions-grid">
+            <!-- Live Music -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" alt="Live Music Night">
+                </div>
+                <div class="attraction-content">
+                    <h3>Live Music Nights</h3>
+                    <p class="schedule">Every Friday & Saturday, 7:00 PM - 10:00 PM</p>
+                    <p>Enjoy live performances by local artists while savoring our special menu items.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-music"></i> Live Band</span>
+                        <span><i class="fas fa-utensils"></i> Special Menu</span>
+                    </div>
+                    <button class="book-btn" data-event="Live Music Nights">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Cooking Classes -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f" alt="Cooking Class">
+                </div>
+                <div class="attraction-content">
+                    <h3>Cooking Classes</h3>
+                    <p class="schedule">Every Sunday, 11:00 AM - 2:00 PM</p>
+                    <p>Learn from our master chefs and discover the secrets of gourmet cooking.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-user-chef"></i> Expert Chefs</span>
+                        <span><i class="fas fa-book"></i> Recipe Book</span>
+                    </div>
+                    <button class="book-btn" data-event="Cooking Classes">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Wine Tasting -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3" alt="Wine Tasting">
+                </div>
+                <div class="attraction-content">
+                    <h3>Wine Tasting</h3>
+                    <p class="schedule">First Thursday of Every Month, 6:00 PM - 9:00 PM</p>
+                    <p>Explore our curated selection of fine wines with expert sommeliers.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-wine-glass-alt"></i> Premium Wines</span>
+                        <span><i class="fas fa-cheese"></i> Cheese Pairing</span>
+                    </div>
+                    <button class="book-btn" data-event="Wine Tasting">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Poetry Night -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66" alt="Poetry Night">
+                </div>
+                <div class="attraction-content">
+                    <h3>Poetry Night</h3>
+                    <p class="schedule">Every Wednesday, 6:30 PM - 9:00 PM</p>
+                    <p>An evening of spoken word poetry and artistic expression.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-book-open"></i> Open Mic</span>
+                        <span><i class="fas fa-coffee"></i> Special Brews</span>
+                    </div>
+                    <button class="book-btn" data-event="Poetry Night">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Art Exhibition -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Art Exhibition">
+                </div>
+                <div class="attraction-content">
+                    <h3>Art Exhibition</h3>
+                    <p class="schedule">Monthly, First Week</p>
+                    <p>Showcasing works from local artists in our gallery space.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-palette"></i> Local Artists</span>
+                        <span><i class="fas fa-camera"></i> Photography</span>
+                    </div>
+                    <button class="book-btn" data-event="Art Exhibition">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Book Club -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1524578271613-d550eacf6090" alt="Book Club">
+                </div>
+                <div class="attraction-content">
+                    <h3>Book Club</h3>
+                    <p class="schedule">Every Second Sunday, 3:00 PM - 5:00 PM</p>
+                    <p>Join our literary discussions over coffee and pastries.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-book"></i> Monthly Reads</span>
+                        <span><i class="fas fa-comments"></i> Discussions</span>
+                    </div>
+                    <button class="book-btn" data-event="Book Club">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Coffee Workshop -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Coffee Workshop">
+                </div>
+                <div class="attraction-content">
+                    <h3>Coffee Workshop</h3>
+                    <p class="schedule">Every Saturday, 10:00 AM - 12:00 PM</p>
+                    <p>Learn the art of coffee brewing from our expert baristas.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-coffee"></i> Brewing Techniques</span>
+                        <span><i class="fas fa-graduation-cap"></i> Certification</span>
+                    </div>
+                    <button class="book-btn" data-event="Coffee Workshop">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Jazz Brunch -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" alt="Jazz Brunch">
+                </div>
+                <div class="attraction-content">
+                    <h3>Jazz Brunch</h3>
+                    <p class="schedule">Every Sunday, 11:00 AM - 2:00 PM</p>
+                    <p>Enjoy live jazz music with our special brunch menu.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-music"></i> Live Jazz</span>
+                        <span><i class="fas fa-utensils"></i> Brunch Specials</span>
+                    </div>
+                    <button class="book-btn" data-event="Jazz Brunch">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Movie Night -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c" alt="Movie Night">
+                </div>
+                <div class="attraction-content">
+                    <h3>Movie Night</h3>
+                    <p class="schedule">Every Last Friday, 7:00 PM - 10:00 PM</p>
+                    <p>Classic and indie films with gourmet popcorn and drinks.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-film"></i> Classic Films</span>
+                        <span><i class="fas fa-popcorn"></i> Gourmet Snacks</span>
+                    </div>
+                    <button class="book-btn" data-event="Movie Night">Book Now</button>
+                </div>
+            </div>
+
+            <!-- Cultural Night -->
+            <div class="attraction-card">
+                <div class="attraction-image">
+                    <img src="https://images.unsplash.com/photo-1504609773096-104ff2c73ba4" alt="Cultural Night">
+                </div>
+                <div class="attraction-content">
+                    <h3>Cultural Night</h3>
+                    <p class="schedule">Monthly, Third Saturday</p>
+                    <p>Celebrate different cultures through food, music, and art.</p>
+                    <div class="attraction-features">
+                        <span><i class="fas fa-globe"></i> World Cuisine</span>
+                        <span><i class="fas fa-drum"></i> Cultural Performances</span>
+                    </div>
+                    <button class="book-btn" data-event="Cultural Night">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Bliss Cafe</div>
+            <p>&copy; 2024 Bliss Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Add this before the closing body tag -->
+    <div class="booking-modal" id="bookingModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Book Your Experience</h2>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="eventName">Event</label>
+                    <input type="text" id="eventName" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" min="1" max="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Special Requests</label>
+                    <textarea id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Book Now</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Booking Modal Functionality
+        const modal = document.getElementById('bookingModal');
+        const bookButtons = document.querySelectorAll('.book-btn');
+        const closeModal = document.querySelector('.close-modal');
+        const eventNameInput = document.getElementById('eventName');
+        const bookingForm = document.querySelector('.booking-form');
+
+        bookButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const eventName = button.getAttribute('data-event');
+                eventNameInput.value = eventName;
+                modal.style.display = 'flex';
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        bookingForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Here you would typically send the form data to a server
+            alert('Booking request submitted! We will contact you shortly.');
+            modal.style.display = 'none';
+            bookingForm.reset();
+        });
+    </script>
+</body>
+</html> 

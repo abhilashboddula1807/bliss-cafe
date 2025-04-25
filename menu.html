@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss Cafe - Our Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Bliss Cafe</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="ambience.html">Ambience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Menu Hero Section -->
+    <section class="menu-hero">
+        <div class="hero-content">
+            <h1>Our Menu</h1>
+            <p>Discover our carefully crafted selection of dishes</p>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section id="menu" class="menu-section">
+        <div class="menu-categories">
+            <button class="category-btn active" data-category="all">All Items</button>
+            <button class="category-btn" data-category="starters">Starters</button>
+            <button class="category-btn" data-category="main-course">Main Course</button>
+            <button class="category-btn" data-category="pasta">Pasta & Noodles</button>
+            <button class="category-btn" data-category="pizza">Pizza</button>
+            <button class="category-btn" data-category="desserts">Desserts</button>
+        </div>
+
+        <!-- Starters -->
+        <div class="menu-category" id="starters">
+            <h2>Starters</h2>
+            <div class="menu-items">
+                <!-- Veg Starters -->
+                <div class="menu-item" data-type="veg">
+                    <div class="menu-item-image">
+                        <img src="images/springrolls.jpg" alt="Spring Rolls">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Spring Rolls</h3>
+                        <p>Crispy vegetable spring rolls served with sweet chili sauce</p>
+                        <span class="price">₹199</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-type="veg">
+                    <div class="menu-item-image">
+                        <img src="images/paneertikka.jpg" alt="Paneer Tikka">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Paneer Tikka</h3>
+                        <p>Marinated cottage cheese grilled to perfection</p>
+                        <span class="price">₹249</span>
+                    </div>
+                </div>
+
+                <!-- Non-Veg Starters -->
+                <div class="menu-item" data-type="non-veg">
+                    <div class="menu-item-image">
+                        <img src="images/wings.jpg" alt="Chicken Wings">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chicken Wings</h3>
+                        <p>Crispy chicken wings with BBQ sauce</p>
+                        <span class="price">₹299</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Course -->
+        <div class="menu-category" id="main-course">
+            <h2>Main Course</h2>
+            <div class="menu-items">
+                <!-- Veg Main Course -->
+                <div class="menu-item" data-type="veg">
+                    <div class="menu-item-image">
+                        <img src="images/Vegetable Biryani.jpg" alt="Vegetable Biryani">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Vegetable Biryani</h3>
+                        <p>Fragrant basmati rice cooked with mixed vegetables</p>
+                        <span class="price">₹299</span>
+                    </div>
+                </div>
+
+                <!-- Non-Veg Main Course -->
+                <div class="menu-item" data-type="non-veg">
+                    <div class="menu-item-image">
+                        <img src="images/Chicken Biryani.jpg" alt="Chicken Biryani">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chicken Biryani</h3>
+                        <p>Hyderabadi style chicken biryani with raita</p>
+                        <span class="price">₹349</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pasta & Noodles -->
+        <div class="menu-category" id="pasta">
+            <h2>Pasta & Noodles</h2>
+            <div class="menu-items">
+                <!-- Veg Pasta -->
+                <div class="menu-item" data-type="veg">
+                    <div class="menu-item-image">
+                        <img src="images/Vegetable Pasta.jpg" alt="Vegetable Pasta">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Vegetable Pasta</h3>
+                        <p>Penne pasta with mixed vegetables in white sauce</p>
+                        <span class="price">₹249</span>
+                    </div>
+                </div>
+
+                <!-- Non-Veg Pasta -->
+                <div class="menu-item" data-type="non-veg">
+                    <div class="menu-item-image">
+                        <img src="images/Chicken Alfredo.jpg" alt="Chicken Alfredo">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chicken Alfredo</h3>
+                        <p>Fettuccine pasta with grilled chicken in creamy sauce</p>
+                        <span class="price">₹299</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pizza -->
+        <div class="menu-category" id="pizza">
+            <h2>Pizza</h2>
+            <div class="menu-items">
+                <!-- Veg Pizza -->
+                <div class="menu-item" data-type="veg">
+                    <div class="menu-item-image">
+                        <img src="images/Margherita Pizza.jpg" alt="Margherita Pizza">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Margherita Pizza</h3>
+                        <p>Classic pizza with tomato sauce and mozzarella</p>
+                        <span class="price">₹299</span>
+                    </div>
+                </div>
+
+                <!-- Non-Veg Pizza -->
+                <div class="menu-item" data-type="non-veg">
+                    <div class="menu-item-image">
+                        <img src="images/Chicken Supreme.jpg" alt="Chicken Supreme">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chicken Supreme</h3>
+                        <p>Loaded with chicken, bell peppers, and mushrooms</p>
+                        <span class="price">₹349</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-category" id="desserts">
+            <h2>Desserts</h2>
+            <div class="menu-items">
+                <div class="menu-item" data-type="veg">
+                    <div class="menu-item-image">
+                        <img src="images/Tiramisu.jpg" alt="Tiramisu">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Tiramisu</h3>
+                        <p>Classic Italian dessert with coffee and mascarpone</p>
+                        <span class="price">₹199</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-type="veg">
+                    <div class="menu-item-image">
+                        <img src="images/Chocolate Lava Cake.jpg" alt="Chocolate Lava Cake">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chocolate Lava Cake</h3>
+                        <p>Warm chocolate cake with molten center</p>
+                        <span class="price">₹249</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Bliss Cafe</div>
+            <p>&copy; 2024 Bliss Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
